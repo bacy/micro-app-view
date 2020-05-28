@@ -1,6 +1,6 @@
 {
   "name": "micro-app-view",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "private": false,
   "description": "wn-micro-app",
   "main": "dist/index.umd.min.js",
