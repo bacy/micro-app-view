@@ -1,14 +1,18 @@
 {
   "name": "micro-app-view",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
+  "description": "wn-micro-app",
+  "main": "dist/index.umd.min.js",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
+    "lib": "vue-cli-service build --target lib --name index --dest dist src/index.js",
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
     "core-js": "^3.6.5",
+    "import-html-entry": "^1.7.3",
     "vue": "^2.6.11"
   },
   "devDependencies": {
